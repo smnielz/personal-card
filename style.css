@@ -27,8 +27,14 @@ body{
     font-family: var(--font);
     background-color: var(--light);
     color: var(--dark);
-    width: 80%;
-    margin: 50px auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 img,
@@ -58,7 +64,7 @@ button{
 }
 
 img:hover{
-    animation: jump 1s infinite;
+    animation: jump 1s;
 }
 
 @keyframes jump {
