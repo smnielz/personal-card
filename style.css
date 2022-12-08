@@ -82,3 +82,15 @@ img:focus{
     50%{-webkit-transform: scaleX(-1);transform: scaleX(-1);}
     80%{transform: translateY(50px);}
 }
+
+@media (max-width:500px){
+    body{
+        font-size: 3rem;
+    }
+    img{
+        width: 90%;
+    }
+    select{
+        font-size: 3rem;
+    }
+}
