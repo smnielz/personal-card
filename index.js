@@ -13,14 +13,14 @@ function changeTheme(theme){
 function changeColor(color){
     let root = document.documentElement;
     if(color === 'c1'){
-        root.style.setProperty('--bg-color', '#252624');
-        root.style.setProperty('--text-color', '#895623');
+        root.style.setProperty('--text-color', '#252624');
+        root.style.setProperty('--bg-color', '#895623');
     }else if(color === 'c2'){
-        root.style.setProperty('--bg-color', '#50C7C7');
-        root.style.setProperty('--text-color', '#E1F5F5');
+        root.style.setProperty('--text-color', '#50C7C7');
+        root.style.setProperty('--bg-color', '#E1F5F5');
     }else if(color === 'c3'){
-        root.style.setProperty('--bg-color', '#F0B30C');
-        root.style.setProperty('--text-color', '#E8DFBE');
+        root.style.setProperty('--text-color', '#F0B30C');
+        root.style.setProperty('--bg-color', '#E8DFBE');
     }else if (color === "c4") {
         root.style.setProperty('--bg-color', "#f2f6c3")
         root.style.setProperty('--text-color', "#68c4af")

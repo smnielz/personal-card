@@ -86,9 +86,12 @@ img:focus{
 @media (max-width:700px){
     body,
     select{
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+    select{
+        margin: 5px;
     }
     img{
-        width: 200px;
+        width: 150px;
     }
 }
